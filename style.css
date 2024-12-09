@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 5px;
+}
+
+.choices{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+    border: solid black;
+    border-radius: 50%;
+
+}
+
+p{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color:black;
+}
+
+.scores{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+#userScore, #computerScore{
+    font-size: 3rem;
+}
+
+.msg-container{
+    background-color: black;
+    color: white;
+    margin-top:2rem;
+    border: solid black;
+    border-radius: 3rem;
+    padding: 5px;
+    
+}
+
+#msg{
+    display: inline;
+    font-size: 2rem;
+}
+
+.choices-display {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.restart-container {
+    margin-top: 2rem;
+}
+
+.restart-container button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.restart-container button:hover {
+    background-color: #45a049;
+}
